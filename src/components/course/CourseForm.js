@@ -49,6 +49,7 @@ const CourseForm = ({
 
       <input
         name="submit"
+        type="submit"
         disabled={saving}
         value={saving ? "Saving..." : "Save"}
         className="btn btn-primary"
